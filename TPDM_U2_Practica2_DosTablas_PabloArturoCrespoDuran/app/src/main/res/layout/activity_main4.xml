@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="mx.edu.ittepic.tpdm_u2_practica2_dostablas_pabloarturocrespoduran.Main4Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATOS DEL DUEÑO"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/idDueño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Id Dueño"
+        android:enabled="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Domicilio:"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/domicilio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Domicilio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono:"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="MODIFICAR" />
+
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BORRAR" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR" />
+
+</LinearLayout>
